@@ -1,8 +1,10 @@
 import { delay } from '@/lib/delays';
 import { WPLayout } from '@/components/WPLayout';
 
+export const dynamic = 'force-dynamic';
+
 export default async function HomePage() {
-  await delay(3000);
+  await delay(12000);
 
   return (
     <WPLayout>
